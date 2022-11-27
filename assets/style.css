@@ -1,0 +1,37 @@
+.mainDiv{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.topName{
+    padding: 50px;
+    
+
+}
+
+body{
+    background-color: rgb(87, 84, 84);
+
+}
+
+.dropdown1>*{
+    width: 31%;
+}
+
+
+.DateInput.DateInput_1{
+    width: 30%;
+    
+  }
+
+.dropdown1{
+    margin: auto 10%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+
+}
+/* 
+

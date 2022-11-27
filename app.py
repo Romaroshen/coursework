@@ -8,6 +8,7 @@ import pandas as pd
 from datetime import datetime
 
 app = Dash(__name__)
+server = app.server
 
 df = pd.read_excel("dashboard.xlsx")
 
@@ -417,5 +418,6 @@ def update_output(value1, value2, value3, value4):
     return part_f()
 
 
+
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server("0.0.0.0", debug=False, port=int(os.environ.get('PORT', 8000)))
